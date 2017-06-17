@@ -4,4 +4,20 @@ image_speed = 0;
 
 image_index = global.CardPlayed;
 
-instance_create_layer(64, 96,"Cards",obj_CardEnemy);
+//move_towards_point( 64, 448, 15);
+
+
+if (global.BossFight > 1)
+{
+image_index = 3;
+global.end = true;
+}
+
+
+
+
+if (global.BossBatle)
+{
+instance_create_layer(32, -224,"Cards",obj_CardBoss);
+}
+else instance_create_layer(32, -224,"Cards",obj_CardEnemy);

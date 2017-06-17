@@ -3,7 +3,7 @@
 image_speed = 0;
 
 
-cardType = irandom(3);
+cardType = irandom(2);
 
 image_index = cardType;
 
@@ -14,18 +14,7 @@ image_index = cardType;
 
 global.EnemyPlayed = cardType;
 
-script_execute(FightScript);
-
-if (global.CardPlayed == 0){}
-
-if (global.EnemyPlayed == 1){}
-if (global.EnemyPlayed == 0){}
-if (global.EnemyPlayed == 2){}
-
-
-
-
-//alarm[0] = room_speed * 3;
+alarm[0] = room_speed * 2;
 
 
 

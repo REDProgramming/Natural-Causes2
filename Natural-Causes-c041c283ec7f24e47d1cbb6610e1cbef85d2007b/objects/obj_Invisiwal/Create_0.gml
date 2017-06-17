@@ -4,4 +4,4 @@
 
 image_speed = 0;
 
-if (global.TimePast)image_index = 1;
+if (global.Time)image_index = 1;

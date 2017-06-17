@@ -3,10 +3,17 @@
 image_speed = 0;
 
 
-cardType = irandom(3);
+cardType = irandom(2);
+
+global.ButtonPressed = 1;
 
 image_index = cardType;
 
+
+if (global.BossFight > 1)
+{
+image_index = 3;
+}
 
 
 

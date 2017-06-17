@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-room_goto(BattleRoom);
+room_goto(BossRoom1);
