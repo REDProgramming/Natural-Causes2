@@ -3,7 +3,7 @@
 image_speed = 0;
 
 
-cardType = random(3);
+cardType = irandom(3);
 
 image_index = cardType;
 

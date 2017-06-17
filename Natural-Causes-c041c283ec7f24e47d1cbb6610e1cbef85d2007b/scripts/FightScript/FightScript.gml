@@ -1,40 +1,73 @@
 
+show_debug_message(global.CardPlayed);
+show_debug_message(global.EnemyPlayed);
 
-if (global.CardPlayed = 0 && global.EnemyPlayed = 0)
+
+switch (global.CardPlayed)
 {
-instance_destroy(obj_CardEnemy);instance_destroy(obj_CardPlayer);
-}
-if (global.CardPlayed = 0 && global.EnemyPlayed = 1)
+case 0:
+
+
+switch (global.EnemyPlayed)
 {
-instance_destroy(obj_CardEnemy);instance_destroy(obj_CardPlayer);
-}
-if (global.CardPlayed = 0 && global.EnemyPlayed = 2)
-{
-instance_destroy(obj_CardEnemy);instance_destroy(obj_CardPlayer);
+case 0:
+
+instance_destroy(obj_CardPlayer);
+instance_destroy(obj_CardEnemy);
+
+break;
+
+case 1:
+
+instance_destroy(obj_CardPlayer);
+instance_destroy(obj_CardEnemy);
+break;
+case 2:
+
+
+instance_destroy(obj_CardPlayer);
+instance_destroy(obj_CardEnemy);
+break;
+
 }
 
-if (global.CardPlayed = 1 && global.EnemyPlayed = 0)
+break;
+
+case 1:
+
+switch (global.EnemyPlayed)
 {
-instance_destroy(obj_CardEnemy);instance_destroy(obj_CardPlayer);
-}
-if (global.CardPlayed = 1 && global.EnemyPlayed = 1)
-{
-instance_destroy(obj_CardEnemy);instance_destroy(obj_CardPlayer);
-}
-if (global.CardPlayed = 1 && global.EnemyPlayed = 2)
-{
-instance_destroy(obj_CardEnemy);instance_destroy(obj_CardPlayer);
+case 0:
+
+break;
+
+case 1:
+
+break;
+case 2:
+
+break;
+
 }
 
-if (global.CardPlayed = 2 && global.EnemyPlayed = 0)
+break;
+case 2:
+
+switch (global.EnemyPlayed)
 {
-instance_destroy(obj_CardEnemy);instance_destroy(obj_CardPlayer);
+case 0:
+
+break;
+
+case 1:
+
+break;
+case 2:
+
+break;
+
 }
-if (global.CardPlayed = 2 && global.EnemyPlayed = 1)
-{
-instance_destroy(obj_CardEnemy);instance_destroy(obj_CardPlayer);
-}
-if (global.CardPlayed = 2 && global.EnemyPlayed = 2)
-{
-instance_destroy(obj_CardEnemy);instance_destroy(obj_CardPlayer);
+
+break;
+
 }
