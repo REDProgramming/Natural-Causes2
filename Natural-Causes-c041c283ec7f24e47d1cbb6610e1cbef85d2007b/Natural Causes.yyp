@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "1079b671-de5b-43b3-a8b2-79802f84f15a",
+            "Value": {
+                "id": "930d8cd7-2d83-4f5d-9e95-f3573bac750d",
+                "resourcePath": "objects\\obj_finalBoss\\obj_finalBoss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "12b16889-b7fc-4b7c-973a-656e99417ed2",
             "Value": {
                 "id": "50750fa9-8f10-4d39-bddf-ac80e41f0eff",
@@ -207,11 +215,27 @@
             }
         },
         {
+            "Key": "45e11ee9-648a-4dcd-a3a6-cb33d65af99c",
+            "Value": {
+                "id": "b4c090d9-6aff-4294-830b-87a6df81f263",
+                "resourcePath": "sprites\\credz\\credz.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "49859ecc-04e5-4995-8d8c-3aa7292ef21b",
             "Value": {
                 "id": "c0e7597f-a284-479e-8825-668c93806fbe",
                 "resourcePath": "sprites\\sprite14\\sprite14.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4b58cbae-2edd-415c-b826-7f751ae444f9",
+            "Value": {
+                "id": "7c2d1a3c-0bda-4183-b712-6079da2c7c0c",
+                "resourcePath": "sounds\\OceanMan\\OceanMan.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -447,6 +471,14 @@
             }
         },
         {
+            "Key": "8f3e1fa5-e3f3-4fe8-8f5b-fd4dd7b454d4",
+            "Value": {
+                "id": "d6270acc-855d-402a-a8b5-fc4cff8ad355",
+                "resourcePath": "objects\\obj_boat\\obj_boat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "92cb4ff8-adef-4b3a-a98c-9b41d94c96f0",
             "Value": {
                 "id": "d26ae711-8659-4fc0-a579-e23475cff1c2",
@@ -487,11 +519,27 @@
             }
         },
         {
+            "Key": "a45de556-1ab8-4e13-b1c9-c2953c269688",
+            "Value": {
+                "id": "f749bcad-a9c6-425b-885c-d43213456d5a",
+                "resourcePath": "rooms\\CutScene\\CutScene.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "4cb6a103-b842-46f7-8ed8-bc702253d2ae",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aa3d893d-5c20-44cd-aad5-2af7e34b1643",
+            "Value": {
+                "id": "a9b4ae05-e7d5-413e-aa8b-ec823dacbb9b",
+                "resourcePath": "objects\\obj_credits\\obj_credits.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -508,6 +556,14 @@
                 "id": "7e612d5c-2e6b-4b2b-a40d-67197c15da9e",
                 "resourcePath": "views\\ab411108-3bff-48c8-9954-29eb40e91969.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ab4c3e33-b333-459b-901b-14cf73af8724",
+            "Value": {
+                "id": "99c67ad3-99d1-4f44-8d01-6522085dd6f6",
+                "resourcePath": "sprites\\00027\\00027.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -587,6 +643,14 @@
             "Value": {
                 "id": "f6e70e7b-b031-4009-bf72-e364514eb1a8",
                 "resourcePath": "objects\\obj_Barn\\obj_Barn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ba0979c0-1798-4888-b55b-bddb42026f88",
+            "Value": {
+                "id": "fa02fabd-6452-4eaa-9fbd-1f21e5c14938",
+                "resourcePath": "objects\\objCutScene\\objCutScene.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -703,11 +767,27 @@
             }
         },
         {
+            "Key": "f55fa809-a1a0-4e1b-9b43-489ffceac4db",
+            "Value": {
+                "id": "8406127e-802b-4795-aaf3-03947170ba2f",
+                "resourcePath": "sprites\\om_end credits0001\\om_end credits0001.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fc1ce716-9657-44a7-9012-47e7c4b5c3dc",
             "Value": {
                 "id": "9f6af4e5-3cdd-4b04-933e-15177d4cf69b",
                 "resourcePath": "scripts\\FightScript11\\FightScript11.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fd9039e1-9924-4c10-92bf-dc67b340c37e",
+            "Value": {
+                "id": "7baa0998-a6dd-48a5-823f-aa17b48414f9",
+                "resourcePath": "sprites\\NC_finalendoftime_01\\NC_finalendoftime_01.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

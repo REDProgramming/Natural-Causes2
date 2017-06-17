@@ -4,4 +4,4 @@
 
 image_speed = 0;
 
-image_index = irandom(8);
+image_index = irandom(28);
