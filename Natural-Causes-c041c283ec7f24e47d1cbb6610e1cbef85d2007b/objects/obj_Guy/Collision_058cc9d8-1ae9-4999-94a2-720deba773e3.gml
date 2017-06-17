@@ -3,7 +3,8 @@
 
 if (global.Time)
 {
-room_goto(BossRoom3);
+global.BossBatle = true;
+room_goto(CutScene);
 global.BossBatle = true;
 }
 else room_goto(BossRoom2);

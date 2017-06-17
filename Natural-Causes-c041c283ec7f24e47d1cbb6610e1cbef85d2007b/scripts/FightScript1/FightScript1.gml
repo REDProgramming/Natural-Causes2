@@ -121,4 +121,9 @@ if (global.EnemyHealth = 0)
 room_goto(Village);
 }
 
+if (global.PlayerHealth = 0)
+{
+room_goto(Village);
+}
+
 

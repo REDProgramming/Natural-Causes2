@@ -115,6 +115,10 @@ break;
 
 }
 
+if (global.PlayerHealth = 0)
+{
+room_goto(Village);
+}
 
 if (global.EnemyHealth = 0)
 {
